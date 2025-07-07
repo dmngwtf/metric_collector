@@ -1,0 +1,43 @@
+# Файлы окружения
+.env
+
+# Файлы Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Временные файлы и логи
+*.log
+*.log.*
+logs/
+*.bak
+*.swp
+*~
+
+# Файлы IDE и редакторов
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Временные файлы macOS
+.DS_Store
+
+# Файлы тестирования и покрытия
+.coverage
+coverage.xml
+*.cover
+htmlcov/
+
+# Виртуальное окружение
+venv/
+env/
+.venv/
+.env/
+
+# Дистрибутивы и сборки
+dist/
+build/
+*.egg-info/
